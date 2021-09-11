@@ -34,7 +34,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@test
 
       - name: CleanUp Enviroment
         if: ${{ env.BFILE == YES }}
